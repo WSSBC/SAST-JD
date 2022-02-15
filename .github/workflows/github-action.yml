@@ -4,9 +4,7 @@ name: Whitesource Prioritize Java with Maven
 on:
   push:
     branches: [ release* ]
-  pull_request:
-    branches: [ release* ]
-
+    
 jobs:
   build:
 
